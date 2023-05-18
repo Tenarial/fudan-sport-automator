@@ -25,13 +25,13 @@ async def main():
 
     if args.route:
         # set distance
-        distance = 1200
+        distance = 968
         if args.distance:
             distance = args.distance
         distance += random.uniform(-5.0, 25.0)
 
         # set time
-        total_time = 360
+        total_time = 260
         if args.time:
             total_time = args.time
         total_time += random.uniform(-10.0, 10.0)
